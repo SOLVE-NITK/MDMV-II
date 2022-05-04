@@ -1,0 +1,71 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "When a system is subjected to forced vibrations then under steady state conditions",
+      "answers": {
+        "a": "It vibrates at its natural frequency",
+        "b": "It vibrates at its imposed frequency",
+        "c": "It vibrates at the mean of natural frequency and imposed frequency",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+        "question": "What is the effect of damping on phase angle at resonance frequency?",
+        "answers": {
+          "a": "Phase angle increases as damping increases",
+          "b": "Damping has no effect on phase angle",
+          "c": "Phase angle increases as damping decreases",
+          "d": "None of the above"
+        },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "When frequency ratio (ω/ωn) is greater than 1, the phase angle decreases as?",
+      "answers": {
+        "a": "damping factor increases",
+        "b": "damping factor decreases",
+        "c": "both a. and b.",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "The phase difference or phase angle in forced vibrations is",
+      "answers": {
+        "a": "Difference between displacement vector (xp) and velocity vector Vp",
+        "b": "Angle in which displacement vector leads force vector by (F0 sinωt)",
+        "c": "Angle in which displacement vector (xp) lags force vector (F0 sinωt)",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    }
+  ]
+}

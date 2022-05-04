@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/MOMstyle.css" />
+    <script src='./js/jquery.min.js'></script>
+    <script src='./js/jquery-ui.min.js'></script>
+    <script src='./js/script.js'></script>
+</head>
+<body onload="startsim(); varinit();">
+ <title>Free Vibration of Simple Pendulum</title>
+ <!-- Defining Container for Simulation -->
+ <div id="container">
+     <!-- Replace TITLE with simulation title to be displayed next to logo-->
+     <div id="simtitle" style="font-size: 34px;">Free Vibration Of A Simple Pendulum</div>
+     <!-- Region for simulation display -->
+     <canvas id="simscreen" height="400px" width="550px"></canvas>
+     <!-- Region for graph display -->
+     <canvas id="graphscreen" height="400px" width="550px"></canvas>
+     <canvas id="storegraph" height="400px" width="550px"></canvas>
+     <div id="commentboxright">
+         &omega;<sub>n</sub>= <span id="omega"></span> rad/s<br>
+         &omega;<sub>d</sub> = <span id="damped"></span> rad/s<br>
+         c<sub>c</sub> = <span id="cc"></span> Ns/m<br>
+         &delta;=<span id="logdec"></span><br>
+     </div>
+     <!-- DND-Title of region for variables display -->
+     <div id="vartitle">VARIABLES</div><br><br>
+     <!-- Region for Input parameters of simulation -->
+     <div id="variables">
+         <div class="variable">
+             <div class="varname"><p title="Stifness" style="font-size: 13px;font-family:serif;">Length(mm)</p>
+                <input id="stiffspinner"/>
+             </div>
+             <div id="stiffslider"></div><br>
+            <br>
+             <div class="varname"><p title="Mass" style="font-size: 13px;font-family:serif;">Acceleration due to gravity(m/s<sup>2</sup>) :- </p><span id="gravity"></span><br><br>
+                 <label for="number" style="font-size: 13px;font-family:serif;">Planet to perform experiment</label>
+                    <select name="number" id="number">
+                            <option value="9.81">Earth</option>
+                            <option value="3.7">Mercury</option>
+                            <option value="8.87">Venus</option>
+                            <option value="1.62">Moon</option>
+                            <option value="3.72">Mars</option>
+                            <option value="24.79">Jupiter</option>
+                            <option value="10.44">Saturn</option>
+                            <option value="8.87">Uranus</option>
+                            <option value="11.15">Neptune</option>
+                    </select>
+                </div>
+             <br><br>
+             <div class="varname"><p title="Damping Ratio" style="font-size: 13px;font-family:serif;">Damping Ratio</p>
+                 <input id="dampspinner"/></div>
+             <div id="dampslider"></div><br>
+             <div class="varname"><p title="Bob Mass" style="font-size: 13px;font-family:serif;">Mass of bob</p>
+                <input id="bobspinner"/></div>
+            <div id="bobslider"></div>
+             <br><br>
+         </div>
+     </div>
+     <!-- DND-Title of region for controls display -->
+     <div id="ctrltitle">CONTROLS</div>
+     <!-- DND-Copyright display-->
+     <div id="copyright" title="Developer : SOLVEr"> Copyright &copy; SOLVE The Virtual Lab @ NITK Surathkal </div>
+     <div id="controls">
+         <!-- Region for User controls of simulation -->
+         <img id="playpausebutton" onclick="simstate()" src="./images/blueplaydull.png" />
+         <img id="graphbutton" onclick="changescreen()" src="./images/graphbutton.png" />
+     </div>
+     <button id="clearGraph" onclick="cleargraph();">Clear Graph</button>
+ </div>
+</body>
+</html>

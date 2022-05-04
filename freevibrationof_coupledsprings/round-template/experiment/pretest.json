@@ -1,0 +1,87 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Expression for equivalent stiffness of the system when a mass is attached between two springs whose stiffnesses are k<sub>1</sub> and k<sub>2</sub> respectively?",
+      "answers": {
+        "a": "k&subeq = k&sub1 k&sub2",
+        "b": "k&subeq = k&sub1 + k&sub2",
+        "c": "k&subeq = k&sub1 / k&sub2",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      {
+        "question": "What is the expression for restoring force when both springs are displaced by a distance x?",
+        "answers": {
+          "a": "2k&sub1 k&sub2 x",
+          "b": "k&sub1 x + k&sub2 x",
+          "c": "2k&sub1 x + k&sub2 x",
+          "d": "2k&sub1 x - k&sub2 x"
+        },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In a coupled spring mass system where the mass is attached between two spings, if the stiffness of the springs are 5N/m and 7N/m respectively, find the equivalent stiffness of the system(in N/m)",
+      "answers": {
+        "a": "35",
+        "b": "12",
+        "c": "2",
+        "d": "7"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The number of cycles per unit time is called the _____ of vibration.",
+      "answers": {
+        "a": "Resonance",
+        "b": "Frequency",
+        "c": "Periodic Motion",
+        "d": "Time Period"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "A body is said to undergo free vibration, when?",
+      "answers": {
+        "a": "It vibrates in free space",
+        "b": "It vibrates freely with no force acting on it",
+        "c": "The force causing the initial displacement is removed",
+        "d": "It vibrates freely with no resistive force acting on it"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+  ]
+}

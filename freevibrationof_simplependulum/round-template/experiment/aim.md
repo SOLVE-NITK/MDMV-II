@@ -1,0 +1,1 @@
+The purpose of this experiment is to understand the effect of damping on a simple pendulum oscillating in its natural frequency

@@ -1,0 +1,71 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "At nodal point, the vibration of a revolving shaft is",
+      "answers": {
+        "a": "Zero",
+        "b": "Maximum",
+        "c": "Double than at the ends",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "As damping factor increases, at which frequency ratio does phase angle increases?",
+      "answers": {
+        "a": "When frequency ratio is less than unity",
+        "b": "When frequency ratio is more than unity",
+        "c": "When frequency ratio is zero",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Magnification factor is maximum at resonance \n 1. Magnification factor is minimum at resonance \n 2. The maximum value of amplification factor increases as damping factor decreases \n 3. The maximum value of amplification factor increases as damping factor increases \n 4. Magnification factor is maximum at resonance",
+      "answers": {
+        "a": "Statement 1 and statement 2",
+        "b": "Statements 1,2 and 3",
+        "c": "Statement 2 and statement 4",
+        "d": "All the above statements are true"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Magnification factor is the ratio of",
+      "answers": {
+        "a": "zero frequency deflection and amplitude of steady state vibrations",
+        "b": "amplitude of steady state vibrations and zero frequency deflection",
+        "c": "amplitude of unsteady state vibrations and zero frequency distribution",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    }
+  ]
+}

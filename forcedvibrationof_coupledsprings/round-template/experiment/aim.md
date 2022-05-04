@@ -1,0 +1,1 @@
+To understand the effect of damping during the forced vibration of a coupled spring.

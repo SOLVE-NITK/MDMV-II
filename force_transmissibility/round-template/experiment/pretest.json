@@ -1,0 +1,87 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Rotating unbalance is caused due to",
+      "answers": {
+        "a": "uneven distribution of mass around axis",
+        "b": "accumulation of excess mass at the tip of the axis",
+        "c": "presence of rotating components",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      {
+        "question": "The equation for transmissibility(ratio of amplitude of system to that of base X/Y) is given by",
+        "answers": {
+          "a": ".√(1+(2πζ)"+sup(2)+")/√((1-r"+sup(2)+"+(2ζr)"+sup(2),
+          "b": "1/√((1-r"+sup>(2)"+(2ζr)"+sup>(2),
+          "c": "√(1+2πζ)/√(1-r"+sup>(2),
+          "d": "None of these
+        },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "What is the amplitude of force due to an imbalance mass of 10g at a distance of 10mm rotating at 100rad/s?",
+      "answers": {
+        "a": "1N",
+        "b": "0.1N",
+        "c": "10N",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "What is the phase angle(in degrees) if the imbalance mass is 100g and rotating at 5 rad/s.System stiffness(k)=5 N/m,System damping(c)=0.5 Ns/m",
+      "answers": {
+        "a": "22",
+        "b": "45",
+        "c": "30",
+        "d": "60"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The distance between unbalanced mass and center of axis is called",
+      "answers": {
+        "a": "unbalance length",
+        "b": "radius",
+        "c": "offset",
+        "d": "eccentricity"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+  ]
+}

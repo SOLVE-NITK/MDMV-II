@@ -1,0 +1,1 @@
+The purpose of this experiment is to understand the effect of damping during the free vibration of a coupled spring.

@@ -1,0 +1,1 @@
+To observe the effect of transmissibility in the vibration of a Single Degree Of Freedom system due to a base excitation caused due to a rotating unbalance.

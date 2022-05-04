@@ -1,0 +1,71 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "A vertical shaft supports a flywheel. A shaft with a diameter of 50 mm is fastened at both ends. The flywheel has a mass of 500 kg, a modulus of rigidity of 80 GN/m2 for the shaft material, and a gyration radius of 0.5 m. Determine the natural frequency of torsional vibrations.",
+      "answers": {
+        "a": "5.32",
+        "b": "5.86",
+        "c": "5.65",
+        "d": "6.66"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Calculate the free torsional vibration frequency of a single motor system from the data: \n c = 8 GN/m2, L=9 m, I = 600 Kg-m2, J = 8×104 m4",
+      "answers": {
+        "a": "162132 Hz",
+        "b": "172132 Hz",
+        "c":"182132 Hz",
+        "d":"192132 Hz"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "A shaft transmits a power of 40 kW at a speed of 75/π. The torque needed in the shaft is",
+      "answers": {
+        "a": "266.67 Nm",
+        "b": "270 Nm",
+        "c": "263.33 Nm",
+        "d": "260 Nm"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "A disc with mass moment of inertia I is attached to a shaft with torsional stiffness q. The natural frequency of free torsional vibration is",
+      "answers": {
+        "a": "2π√qI",
+        "b": "2π√1/qI",
+        "c": "√qI / 2π",
+        "d": "√q / (2π√I)"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    }
+  ]
+}

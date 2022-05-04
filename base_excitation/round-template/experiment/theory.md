@@ -1,0 +1,13 @@
+## Introduction<br>
+While travelling in a car or any other vehicle it is not uncommon to experience vibrations which cause great discomfort and ruin a smooth riding experience.The vibrations that occur at the base and near moving parts of a vehicle get transmitted upwards to the seats . The source of the vibrations at the base can be of any form such as an external harmonic force, a moving base or a force due to a rotating unbalance.
+Rotating unbalance is a common source of vibrations in automobiles.It is the uneven distribution of mass around an axis of rotation. Unbalance is caused when the center of mass (inertia axis) is out of alignment with the center of rotation (geometric axis). When an object is forced to spin about a fixed axis, if the mass is not evenly distributed about that fixed axis then a centrifugal force resulting from this unbalance induces an exciting force due to which the structure vibrates.One might have experienced the effect of vibration due to rotating unbalance while driven a car where the wheels are not balanced. At some particular speed the car will shake, sometimes quite violently. At this speed, the rotational speed of the wheels is such that it becomes close to the natural frequency of the car on its suspension, so that the amplitude becomes a maximum. This phenomena is really important because if not dealt with promptly one could have catastrophic failures due to the fatigue caused by the vibration
+Here, the rotating unbalance at the base is modelled as a single degree spring mass damper shown in figure having an equivalent unbalance mass m rotating at frequency ω with its centre of gravity at a distance e from the axis of rotation. The distance e is known as the eccentricity.This results in a centrifugal force proportional to the square of frequency of rotation. The centrifugal force is the maximum value of sinusoidal excitation in any direction.<br>
+<img src="images/theory1.png"/><br>
+The equation of motion in the vertical direction can be written as,<br>
+<img src="images/theory2.png"/><br>
+Where M is the mass of the structure, c is the damping present in the system and k is the stiffness of the system.
+Steady state amplitude X and phase angle due to vibration caused by rotating unbalance is given by,<br>
+<img src="images/theory3.png"/><br>
+The additional force generated at the base through the rotating unbalance gets transmitted upwards through the damper and spring system to the upper part of the system.If the displacement of the base is Y then the displacement of the upper system(mass) “X” is given by :<br>
+<img src="images/theory4.png"/><br>
+where η = ω/ω<sub>n</sub> is the ratio of operating frequency to the natural frequency of the system.

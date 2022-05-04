@@ -1,0 +1,84 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The  natural frequency of two rotors supported by a shaft is wn. When one of the rotors is fixed, the natural frequency",
+      "answers": {
+        "a": "increases",
+        "b": "decreases",
+        "c": "remains constant",
+        "d": "becomes 0"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+        "question": "The vibration damper present on a crankshaft reduces",
+        "answers": {
+          "a": "Transverse vibrations",
+          "b": "Longitudinal vibrations",
+          "c": "Torsional vibrations",
+          "d": "All of the above"
+        },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "What will happen to free torsional vibrations of a single motor system if the polar moment of inertia is increased four times?",
+      "answers": {
+        "a": "Increases 4 times",
+        "b": "Increases 2 times",
+        "c": "Decreases 4 times",
+        "d": "Decreases 2 times"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The torsional free vibration increases as the radius of gyration increases.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In a two-rotor system, free torsional vibrations will only occur if both rotors have the same frequency.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    }
+  ]
+}

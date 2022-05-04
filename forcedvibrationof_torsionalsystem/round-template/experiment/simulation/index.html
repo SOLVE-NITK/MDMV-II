@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/MOMstyle.css" />
+    <script src='./js/jquery.min.js'></script>
+    <script src='./js/jquery-ui.min.js'></script>
+    <script src='./js/script.js'></script>
+</head>
+<body onload="startsim(); varinit();">
+ <title>Forced Vibration of  a Torsional System</title>
+ <!-- Defining Container for Simulation -->
+ <div id="container">
+     <!-- Replace TITLE with simulation title to be displayed next to logo-->
+     <div id="simtitle" style="font-size: 33px;">Forced Vibration Of A Torsional System</div>
+     <!-- Region for simulation display -->
+     <canvas id="simscreen" height="400px" width="550px"></canvas>
+     <!-- Region for graph display -->
+     <canvas id="graphscreen" height="400px" width="550px"></canvas>
+     <canvas id="storegraph" height="400px" width="550px"></canvas>
+     <div id="titleincanvas"></div>
+     <div id="commentboxleft"></div>
+     <div id="commentboxright">
+         &omega;<sub>n</sub> = <span id="omega"></span> rad/s<br>
+         &omega;<sub>d</sub> = <span id="damped"></span> rad/s<br>
+         c<sub>c</sub> = <span id="cc"></span> Ns/m<br>
+         &delta;=<span id="logdec"></span><br>
+     </div>
+     <!-- DND-Title of region for variables display -->
+     <div id="vartitle">VARIABLES</div><br><br>
+     <!-- Region for Input parameters of simulation -->
+     <div id="variables">
+         <div class="variable">
+             <div class="varname"><p title="Stifness" style="font-size: 13px;">Stiffness(K<sub>t</sub>)</p>
+                <input id="stiffspinner"/>
+             </div>
+             <div id="stiffslider"></div><br>
+            <div class="varname"><p title="Polar" style="font-size: 13px;">Polar Moment(J)</p>
+               <input id="massspinner"/>
+            </div>
+            <div id="massslider"></div><br>
+             <div class="varname"><p title="Damping Ratio" style="font-size: 13px;">Damping Ratio</p>
+                 <input id="dampspinner"/></div>
+             <div id="dampslider"></div><br>
+             <div class="varname"><p title="Force Amp" style="font-size: 13px;" >Force Amp(N)</p>
+                 <input id="forcespinner"/></div><br><br>
+             <div class="varname"><p title="Force Freq" style="font-size: 13px;">Forcing Freq<input id="frequencyspinner"/><br>(rad/s)</p>
+                 </div>
+         </div>
+     </div>
+     <!-- DND-Title of region for controls display -->
+     <div id="ctrltitle">CONTROLS</div>
+     <!-- DND-Copyright display-->
+     <div id="copyright" title="Developer : SOLVEr"> Copyright &copy; SOLVE The Virtual Lab @ NITK Surathkal </div>
+     <div id="controls">
+         <!-- Region for User controls of simulation -->
+         <img id="playpausebutton" onclick="simstate()" src="./images/blueplaydull.png" />
+         <img id="graphbutton" onclick="changescreen()" src="./images/graphbutton.png" />
+     </div>
+     <button id="clearGraph" onclick="cleargraph();">Clear Graph</button>
+ </div>
+</body>
+</html>

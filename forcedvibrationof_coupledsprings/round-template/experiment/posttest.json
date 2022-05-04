@@ -1,0 +1,89 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+    {
+      "question": "What is the phase difference between input and response for a system with 10kg mass 10N/m stiffness and 15Ns/m damping being operated at 0.5 rad/s?",
+      "answers": {
+        "a": "90\u00B0",
+        "b": "30\u00B0",
+        "c": "60\u00B0",
+        "d": "45\u00B0"
+      },
+      "explanations": {
+        "a": "W&subd > W&subn",
+        "b": "W&subd = W&subn",
+        "c": "W&subd < W&subn",
+        "d": "none of these"
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "Amplification factor of a system was found to be 4 at resonance. What would be its damping ratio?",
+      "answers": {
+        "a": "0.5",
+        "b": "0.25",
+        "c": "0.125",
+        "d": "1"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The above equation gives the steady state amplitude for a system excited by an external harmonic force.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      correctAnswer: "b"
+    },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "If the damping ratio of the system is 0.25, find its logarithmic decrement",
+      "answers": {
+        "a": "1.62",
+        "b": "2.44",
+        "c": "3.62",
+        "d": "4"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "If the damping ratio of a system is 0.5 and its frequency ratio is 0.8 then its magnification factor will be",
+      "answers": {
+        "a": "1.56",
+        "b": "0.88",
+        "c": "2.33",
+        "d": "1.14"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    }
+  ]
+}

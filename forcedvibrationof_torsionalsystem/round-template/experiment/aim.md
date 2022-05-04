@@ -1,0 +1,1 @@
+To observe the effect of damping in the forced vibration of a torsional system.

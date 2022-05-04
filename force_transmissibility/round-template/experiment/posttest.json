@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+    {
+      "question": "Phase difference between input and response at resonance is 90\u00B0",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "W&subd > W&subn",
+        "b": "W&subd = W&subn",
+        "c": "W&subd < W&subn",
+        "d": "none of these"
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    "question": "Phase angle in terms of damping ratio and frequency ratio is",
+    "answers": {
+      "a": "atan(2r/(1-r^2))",
+      "b": "atan(2ζr/(1-r^2))",
+      "c": "atan(1/(1-r^2))",
+      "d": "None of these"
+    },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The force transmissivity and displacement transmissivity are the same for a single degree of freedom system",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "The force transmissibility of the system if the damping ratio is 0.1 and frequency ratio is 1.",
+      "answers": {
+        "a": "3.77",
+        "b": "4.5",
+        "c": "1",
+        "d": "5.1"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      {
+        "question": "Which among the following are causes of imbalance in systems?",
+        "answers": {
+          "a": "Distortion from stress",
+          "b": "Thermal distortion",
+          "c": "Unbalanced by design",
+          "d": "All of the above"
+        },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+  ]
+}
